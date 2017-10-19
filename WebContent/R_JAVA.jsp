@@ -25,6 +25,7 @@
 //CATALINA_OPTS="-Djava.library.path=.:/Library/Frameworks/R.framework/Versions/3.3/Resources/library/rJava/jri/"#jriのある場所
 //#上記のように書いているが，jriはlibの中に格納
 //R_HOME="/Library/Frameworks/R.framework/Versions/3.3/Resources"#Rの本体
+//上記はもしかしたら，bash_profile.shに設定した方がいいかな？
 out.println(new R_JAVA().sqrt(36));
 %>
 </body>
