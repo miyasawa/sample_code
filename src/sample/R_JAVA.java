@@ -23,8 +23,7 @@ public class R_JAVA {
 	
 	public double sqrt(int arg) {
         //Rengine engine = new Rengine(new String[]{"--no-save"}, false, null);
-		//繰り返し実行可能
-        Rengine engine = Rengine.getMainEngine();
+        Rengine engine = Rengine.getMainEngine();//繰り返し実行可能
         if (engine == null) {
         		engine = new Rengine(new String[] { "--vanilla" }, false, null);
         	}
